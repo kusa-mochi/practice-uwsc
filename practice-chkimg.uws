@@ -1,0 +1,12 @@
+// コメント
+//testVar = 123
+//msgbox("ラーメン食べたい！")
+//msgbox("ラーメン" + testVar + "杯食べたいんだおーん！")
+
+path1 = "google.bmp"
+path2 = "google2.bmp"
+ifb chkimg(path1) or chkimg(path2)
+	msgbox("google !!!")
+else
+	msgbox("ぷえ～～～")
+endif
